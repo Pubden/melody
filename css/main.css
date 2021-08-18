@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Bebas Neue Cyrillic';
+    src: local('Bebas Neue Cyrillic'), local('BebasNeueCyrillic'),
+        url('../fonts/BebasNeueCyrillic.woff2') format('woff2'),
+        url('../fonts/BebasNeueCyrillic.woff') format('woff');
+    font-display: swap;
+}
+
+
+
 * {
     box-sizing: border-box; 
 }
@@ -50,4 +60,65 @@ body {
     font-size: 17px;
     line-height: 20px;
     
+}
+.content-text {
+    font-family: 'Bebas Neue Cyrillic', sans-serif;
+    color: #635854;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 44px;
+
+
+}
+.content {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1280px;
+    margin: auto;
+}
+.floor-number {
+    font-family: 'Bebas Neue Cyrillic', sans-serif;
+    color: #635854;
+    font-size: 124px;
+    text-align: center;
+}
+.btn-primary {
+    width: 300px;
+    height: 50px;
+    background-color: #3596F5;
+    color: #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.content {
+    margin-top: 54px;
+    /* margin-bottom: 99px;
+    border-bottom: 4px solid #3596F5; */
+}
+.math-img path {
+    opacity: 0;
+    cursor: pointer;
+}
+.math-img path:hover {
+    opacity: 1;
+}
+.content-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-button {
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+.btn-primary {
+    border: 0;
 }
