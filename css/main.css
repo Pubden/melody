@@ -122,3 +122,7 @@ body {
 .btn-primary {
     border: 0;
 }
+
+.math-img .floor-in {
+    opacity: 1;
+} 
